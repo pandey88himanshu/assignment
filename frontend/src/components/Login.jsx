@@ -20,7 +20,7 @@ const Login = () => {
   async function clickHandler(user) {
     if (user.email && user.password) {
       await axios
-        .post("http://localhost:3000/api/v1/login", user)
+        .post("https://assignment-backend-omega.vercel.app/api/v1/login", user)
         .then((res) => {
           console.log(res);
           if (res.status == 200) {
