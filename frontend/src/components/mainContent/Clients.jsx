@@ -14,9 +14,21 @@ const Clients = () => {
               alt=""
               className="w-[100px]"
             />
-            <img src="./src/assets/4.jpg" alt="" className="w-[100px]" />
-            <img src="./src/assets/5.jpg" alt="" className="w-[100px]" />
-            <img src="./src/assets/6.jpg" alt="" className="w-[100px]" />
+            <img
+              src="https://i.ibb.co/3BYjmng/4.jpg"
+              alt=""
+              className="w-[100px]"
+            />
+            <img
+              src="https://i.ibb.co/Rh1gBYn/5.jpg"
+              alt=""
+              className="w-[100px]"
+            />
+            <img
+              src="https://i.ibb.co/wpL9Knk/6.jpg"
+              alt=""
+              className="w-[100px]"
+            />
           </div>
         </div>
       </div>
