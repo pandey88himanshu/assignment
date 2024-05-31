@@ -9,7 +9,11 @@ const Clients = () => {
             <p className="tracking-wider text-[36px]">OUR CLIENTS</p>
           </div>
           <div className="ourclient flex items-center justify-between w-[70vw]">
-            <img src="./src/assets/3.jpg" alt="" className="w-[100px]" />
+            <img
+              src="https://i.ibb.co/8K7TvzF/3.jpg"
+              alt=""
+              className="w-[100px]"
+            />
             <img src="./src/assets/4.jpg" alt="" className="w-[100px]" />
             <img src="./src/assets/5.jpg" alt="" className="w-[100px]" />
             <img src="./src/assets/6.jpg" alt="" className="w-[100px]" />
