@@ -32,7 +32,7 @@ const Login = () => {
           }
         });
     } else {
-      alert("NOOO");
+      toast.error("fill details");
     }
   }
   return (
