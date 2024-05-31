@@ -39,7 +39,7 @@ const Signup = () => {
           }
         });
     } else {
-      alert("NOOO");
+      toast.error("fill details");
     }
   }
   return (
