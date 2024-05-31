@@ -4,7 +4,7 @@ const About = () => {
   return (
     <>
       <div className="container1 scroll-smooth">
-        <div className="relative wrapper1 bg-[url('./src/assets/2.jpg')] w-[100vw] h-[70vh] bg-cover bg-center bg-fixed ">
+        <div className="relative wrapper1 bg-[url('https://i.ibb.co/4fG2mSh/2.jpg')] w-[100vw] h-[70vh] bg-cover bg-center bg-fixed ">
           <div className="absolute inset-0 bg-gradient-to-r from-[#dae9f2] to-[#dae9f2] opacity-90 w-[100vw] h-[70vh] z-70 text-black flex items-center justify-center flex-col gap-10">
             <p className="text-[36px] tracking-wide">ABOUT US</p>
             <div className="max-w-[800px] mx-auto flex items-center justify-center flex-col gap-6 text-[16px] font-light">
