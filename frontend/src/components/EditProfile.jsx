@@ -31,7 +31,7 @@ const EditProfile = () => {
           });
       }
     } catch (error) {
-      alert("Not Changed");
+      toast.error("Not Changed");
     }
   }
   function logout() {
