@@ -3,8 +3,8 @@ import React from "react";
 const Info = () => {
   return (
     <>
-      <div className="container1 scroll-smooth h-[70vh] flex items-center justify-center  bg-white">
-        <div className="wrapper1 max-w-[1200px] mx-auto flex items-center justify-between gap-9 w-[100vw]">
+      <div className="container1 scroll-smooth min-h-[70vh] flex items-center justify-center  bg-white ">
+        <div className="wrapper1 max-w-[1200px] mx-auto flex items-center justify-between gap-9 w-[100vw] max-lg:flex-col max-lg:py-[10px]">
           <div className="services flex items-center justify-center flex-col gap-6">
             <p className="text-[36px] tracking-wide">SERVICES</p>
             <p className="w-[350px] text-[16px] leading-relaxed font-light">

@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <>
       <div className="container1 bg-[#072136] text-white w-[100vw]">
-        <div className="wrapper1 flex items-start justify-between max-w-[1300px] mx-auto h-[50vh] pt-[30px]">
+        <div className="wrapper1 flex items-start justify-between max-w-[1300px] mx-auto h-[50vh] pt-[30px] max-sm:flex-col  max-sm:items-center ">
           <div className="left flex flex-col items-start justify-center gap-5 ">
             <p className="text-[20px] font-light tracking-wider">
               JAMES CONSULTING
@@ -19,7 +19,7 @@ const Footer = () => {
               <li>Tel: 123-456-7890</li>
             </ul>
           </div>
-          <div className="middle flex flex-col items-start justify-center gap-5">
+          <div className="middle flex flex-col items-start justify-center gap-5 ">
             <p className="text-[20px] font-light tracking-wider">Menu</p>
             <ul className="text-[16px] font-light leading-6 flex flex-col gap-3">
               <li>
