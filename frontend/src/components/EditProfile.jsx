@@ -24,7 +24,10 @@ const EditProfile = () => {
     try {
       if (user.name || user.pic) {
         await axios
-          .put("https://assignment-backend-omega.vercel.app/v1/update", user)
+          .put(
+            "https://assignment-backend-omega.vercel.app/api/v1/update",
+            user
+          )
           .then((data) => {
             toast.success("Changed");
             navigate("/");
