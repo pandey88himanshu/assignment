@@ -14,8 +14,8 @@ const Contact = () => {
                 action=""
                 className="flex items-center justify-between flex-col gap-8 w-screen"
               >
-                <div className="flex items-center justify-between gap-6">
-                  <div className="flex flex-col w-[30vw] gap-4">
+                <div className="flex items-center justify-between gap-6 max-sm:flex-col ">
+                  <div className="flex flex-col w-[30vw] gap-4 max-sm:w-[40vw]">
                     <label htmlFor="fname" className="text-[20px]">
                       First Name
                     </label>
@@ -26,7 +26,7 @@ const Contact = () => {
                       className="border-b border-solid border-white  bg-transparent focus:outline-none "
                     />
                   </div>
-                  <div className="flex flex-col w-[30vw] gap-4">
+                  <div className="flex flex-col w-[30vw] gap-4 max-sm:w-[40vw]">
                     <label htmlFor="lname" className="text-[20px]">
                       Last Name
                     </label>
@@ -38,8 +38,8 @@ const Contact = () => {
                     />
                   </div>
                 </div>
-                <div className="flex items-center justify-between gap-6">
-                  <div className="flex flex-col w-[30vw] gap-4">
+                <div className="flex items-center justify-between gap-6 max-sm:flex-col">
+                  <div className="flex flex-col w-[30vw] gap-4 max-sm:w-[40vw]">
                     <label htmlFor="email" className="text-[20px]">
                       Email
                     </label>
@@ -50,7 +50,7 @@ const Contact = () => {
                       className="border-b border-solid border-white  bg-transparent focus:outline-none "
                     />
                   </div>
-                  <div className="flex flex-col w-[30vw] gap-4">
+                  <div className="flex flex-col w-[30vw] gap-4 max-sm:w-[40vw]">
                     <label htmlFor="subject" className="text-[20px]">
                       Subject
                     </label>
@@ -62,7 +62,7 @@ const Contact = () => {
                     />
                   </div>
                 </div>
-                <div className="flex items-center justify-between gap-6">
+                <div className="flex items-center justify-between gap-6 max-sm:flex-col">
                   <div className="flex flex-col w-[52vw] gap-4">
                     <label htmlFor="" className="text-[20px]">
                       Message
