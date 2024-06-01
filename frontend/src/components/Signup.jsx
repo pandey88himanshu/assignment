@@ -28,7 +28,7 @@ const Signup = () => {
       user.password === user.cpassword
     ) {
       await axios
-        .post("http://localhost:3000/api/v1/signup", user)
+        .post("https://assignment-backend-omega.vercel.app/api/v1/signup", user)
         .then((res) => {
           console.log(res);
           if (res.status == 200) {

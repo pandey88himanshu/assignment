@@ -12,7 +12,9 @@ const NavBar = () => {
   useEffect(() => {
     if (email) {
       axios
-        .post("http://localhost:3000/api/v1/getdata", { email })
+        .post("https://assignment-backend-omega.vercel.app/api/v1/getdata", {
+          email,
+        })
         .then((res) => {
           setData({
             ...data,
