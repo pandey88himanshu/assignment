@@ -8,7 +8,7 @@ const Clients = () => {
           <div>
             <p className="tracking-wider text-[36px]">OUR CLIENTS</p>
           </div>
-          <div className="ourclient flex items-center justify-between w-[70vw]">
+          <div className="ourclient flex items-center justify-between w-[70vw] max-sm:flex-col gap-8">
             <img
               src="https://i.ibb.co/8K7TvzF/3.jpg"
               alt=""
