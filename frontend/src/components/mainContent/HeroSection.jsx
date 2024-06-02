@@ -3,7 +3,7 @@ import React from "react";
 const HeroSection = () => {
   return (
     <>
-      <div className="container1 scroll-smooth">
+      <div className="container1 scroll-smooth overflow-hidden">
         <div className="wrapper1 bg-[url('https://i.ibb.co/LkWVC4B/1.jpg')] w-[100vw] h-[100vh] bg-cover bg-center">
           <div className="container1 flex items-end justify-center w-screen h-screen ">
             <div className="slide-up wrapper1 w-[55vw] h-[40vh] mx-auto  bg-white text-black flex items-center justify-center flex-col gap-9">
