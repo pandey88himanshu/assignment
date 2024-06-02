@@ -40,7 +40,7 @@ const Login = () => {
       {console.log(user)}
       <div className="container ">
         <div className="wrapper max-w-[1300px] mx-auto h-[80vh] flex items-center justify-center">
-          <div className="form text-black h-[40vh] w-[30vw] flex items-center justify-center flex-col gap-3">
+          <div className="form text-black h-[40vh] w-[40vw] flex items-center justify-center flex-col gap-3">
             <form action="" className="flex items-center justify-between ">
               <div flex items-center justify-between gap-9>
                 <div className="flex flex-col w-[30vw] gap-4">
